@@ -1,3 +1,3 @@
 # Error rendering [![Documentation](https://godoc.org/github.com/vincentserpoul/gohttperror?status.svg)](http://godoc.org/github.com/vincentserpoul/gohttperror) [![Go Report Card](https://goreportcard.com/badge/github.com/vincentserpoul/gohttperror)](https://goreportcard.com/report/github.com/vincentserpoul/gohttperror) [![Coverage Status](https://coveralls.io/repos/github/vincentserpoul/gohttperror/badge.svg?branch=master)](https://coveralls.io/github/vincentserpoul/gohttperror?branch=master) [![CircleCI](https://circleci.com/gh/vincentserpoul/gohttperror.svg?style=svg)](https://circleci.com/gh/vincentserpoul/gohttperror) [![Maintainability](https://api.codeclimate.com/v1/badges/3325d63a42ad28d569e4/maintainability)](https://codeclimate.com/github/vincentserpoul/gohttperror/maintainability)
 
-    From (go-chi examples)[https://github.com/go-chi/chi/tree/master/_examples/rest]
+    From [go-chi examples](https://github.com/go-chi/chi/tree/master/_examples/rest)
