@@ -23,7 +23,6 @@ type ErrResponse struct {
 // Render rendering the error
 func (e *ErrResponse) Render(w http.ResponseWriter, r *http.Request) error {
 	render.Status(r, e.HTTPStatusCode)
-	w.WriteHeader(e.HTTPStatusCode)
 	gohttpmw.SetRequestError(r, e.Err)
 	return nil
 }
