@@ -66,5 +66,11 @@ func ErrForbidden(err error) *ErrResponse {
 // ErrNotFound is the wrapped error for not found resources
 var ErrNotFound = &ErrResponse{
 	HTTPStatusCode: http.StatusNotFound,
-	StatusText:     "Resource not found.",
+	StatusText:     "Resource not found",
+}
+
+// ErrNotImplemented is the wrapped error for not implemented methods
+var ErrNotImplemented = &ErrResponse{
+	HTTPStatusCode: http.StatusNotImplemented,
+	StatusText:     "Method not implemented",
 }
